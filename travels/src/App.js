@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+//import dayjs from 'dayjs' // Typescript
+import * as dayjs from 'dayjs';
 
 function App() {
+  dayjs().format();
+  console.log(dayjs().format());
   return (
     <div className="App">
       <header className="App-header">
